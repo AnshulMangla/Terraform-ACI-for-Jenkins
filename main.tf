@@ -19,7 +19,7 @@ resource "aci_tenant" "anshul_terraform" {
     name = "anshul_terraform"
 }
 
- Define an ACI Tenant VRF Resource.
+# Define an ACI Tenant VRF Resource.
  resource "aci_vrf" "terraform_vrf" {
     tenant_dn   = aci_tenant.anshul_terraform.id
     description = "VRF Modified Using Terraform"
