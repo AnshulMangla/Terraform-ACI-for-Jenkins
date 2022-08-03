@@ -15,8 +15,8 @@ provider "aci" {
 }
 
 # ACI Tenant
-resource "aci_tenant" "anshul_terraform" {
-    name = "anshul_terraform"
+resource "aci_tenant" "anshul_terraform6" {
+    name = "anshul_terraform6"
 }
 
 # Define an ACI Tenant VRF Resource.
